@@ -15,3 +15,44 @@ while unprinted_designs:
 print("\nThe following models have been printed:")
 for completed_model in completed_models:
     print(completed_model)
+
+import turtle
+
+# Create a turtle screen
+window = turtle.Screen()
+
+# Create a turtle
+my_turtle = turtle.Turtle()
+
+# Set the turtle's shape to "turtle"
+my_turtle.shape("turtle")
+
+# Customize the turtle's color and size
+my_turtle.color("green")
+my_turtle.shapesize(2)
+
+# Move the turtle forward
+my_turtle.forward(100)
+
+# Close the window when clicked
+window.exitonclick()
+import turtle
+
+# Create a turtle screen
+window = turtle.Screen()
+
+# Create a turtle
+my_turtle = turtle.Turtle()
+
+# Set the turtle's shape to "turtle"
+my_turtle.shape("turtle")
+
+# Customize the turtle's color and size
+my_turtle.color("green")
+my_turtle.shapesize(2)
+
+# Move the turtle forward
+my_turtle.forward(100)
+
+# Close the window when clicked
+window.exitonclick()
